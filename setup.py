@@ -23,7 +23,7 @@ setup(
     ],
     setup_requires=["setuptools_scm"],
     install_requires=[
-        "mvg-api>=1.2.2",
+        "mvg-api@git+https://github.com/leftshift/python_mvg_api.git@e943888293a0706a212360fad4d99c7bac6acf5d#egg=mvg-api",
     ],
     extras_require={
         "dev": [
